@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	});
 
-
 	//header
 	function header() {
 		gsap.to('.title_paralax', {
@@ -173,4 +172,5 @@ document.addEventListener("DOMContentLoaded", function () {
 		})
 	}
 	footer();
+	
 });
