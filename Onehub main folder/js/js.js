@@ -186,14 +186,9 @@ document.addEventListener('mousemove', (e) => {
     duration: 0.1
   });
 });
-
-// Hide Pointer When Not Moving
-let timeout;
-document.addEventListener('mousemove', () => {
-  pointer.style.opacity = '1';
-  clearTimeout(timeout);
-  timeout = setTimeout(() => {
-    pointer.style.opacity = '0';
-  }, 500);
-});
+document.addEventListener('mousemove', (e) => {
+	const hue = Math.round((e.clientX / window.innerWidth) * 360);
+	pointer.style.background = `hsl(${hue}, 100%, 50%)`;
+	pointer.style.boxShadow = `0 0 15px hsl(${hue}, 100%, 50%), 0 0 25px hsl(${hue}, 100%, 50%)`;
+  });
 });
