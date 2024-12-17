@@ -196,5 +196,4 @@ document.addEventListener('mousemove', () => {
     pointer.style.opacity = '0';
   }, 500);
 });
-	
 });

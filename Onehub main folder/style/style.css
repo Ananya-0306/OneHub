@@ -356,3 +356,19 @@ section {
 				  0 0 40px rgba(51, 255, 0, 0.8);
 	}
   }
+  .custom-pointer {
+	border-radius: 50%;
+	animation: morph 2s infinite alternate;
+  }
+  
+  @keyframes morph {
+	0% {
+	  border-radius: 50%;
+	}
+	50% {
+	  border-radius: 0%; /* Square */
+	}
+	100% {
+	  border-radius: 50%;
+	}
+  }
