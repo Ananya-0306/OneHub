@@ -172,5 +172,29 @@ document.addEventListener("DOMContentLoaded", function () {
 		})
 	}
 	footer();
+
+	// Add Fluorescent Pointer to Body
+const pointer = document.createElement('div');
+pointer.classList.add('custom-pointer');
+document.body.appendChild(pointer);
+
+// Update Pointer Position
+document.addEventListener('mousemove', (e) => {
+  gsap.to(pointer, {
+    x: e.clientX,
+    y: e.clientY,
+    duration: 0.1
+  });
+});
+
+// Hide Pointer When Not Moving
+let timeout;
+document.addEventListener('mousemove', () => {
+  pointer.style.opacity = '1';
+  clearTimeout(timeout);
+  timeout = setTimeout(() => {
+    pointer.style.opacity = '0';
+  }, 500);
+});
 	
 });
