@@ -1,8 +1,8 @@
 # OneHub: Unified Travel and Lifestyle Assistant
 
-![ola-clone-script](https://github.com/user-attachments/assets/b81dc7b5-e3e9-4aa2-8e70-c9c128e67264)
+<img src="https://github.com/Ananya-0306/OneHub/blob/main/awsvercel.png" alt="Ananya chatterjee is here" />
 
-<h1 align="center"> Ola Clone: The Roadmap to Building a Successful Ride-Hailing App </h1>
+<h1 align="center"> OneHub: The Roadmap to Building a Successful Ride-Hailing App </h1>
 
 Ride-hailing has become a growing industry in the last couple of years, targeting urban transportation globally. Owing to the advancement of mobile applications and the concept of an on-demand economy, apps such as Ola provide smooth, accessible, and effective transportation solutions. The success story depicts how there has been a growing demand for flexibility in everything, to millions of customers just through the mobile apps.
 
